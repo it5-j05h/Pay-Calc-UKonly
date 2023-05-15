@@ -1,0 +1,91 @@
+/* style.css */
+
+/* Style the page background and font */
+body {
+	background-color: #f4f4f4;
+	font-family: Arial, sans-serif;
+  }
+  
+  /* Center the main content */
+  main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2rem;
+  }
+  
+  /* Style the calculator title */
+  h1 {
+	margin-bottom: 2rem;
+	text-align: center;
+	color: #008cba;
+  }
+  
+  /* Style the calculator form */
+  form {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	padding: 1rem;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+  }
+  
+  .form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+  }
+  
+  label {
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+  }
+  
+  input[type="number"] {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+	background-color: #008cba;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 3px;
+	font-size: 1rem;
+	cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+	background-color: #006080;
+  }
+  
+  /* Style the results section */
+  #net-pay-results {
+	margin-top: 2rem;
+	padding: 1rem;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	text-align: center;
+  }
+  
+  .result {
+	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+  }
+  
+  .result-label {
+	font-weight: bold;
+  }
+  
+  .result-value {
+	margin-left: 1rem;
+	font-weight: bold;
+	color: #008cba;
+  }
+  
